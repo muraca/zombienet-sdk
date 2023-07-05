@@ -11,7 +11,7 @@ We also want to continue supporting the `CLI` interface *but* should be updated 
 
 # The Plan
 
-We plan to divide the work phases to. ensure we cover all the requirement and inside each phase in small tasks, covering one of the building blocks and the interaction between them. 
+We plan to divide the work phases to. ensure we cover all the requirement and inside each phase in small tasks, covering one of the building blocks and the interaction between them.
 
 ## Prototype building blocks
 
@@ -73,7 +73,7 @@ Refactor the `CLI` module to use the new `SDK` under the hood.
 - Add XCM support in built-in assertions
 - Add `ink! smart contract` support
 - Add support to start from a live network (fork-off) [check subalfred]
-- Create "default configuration" - (if `zombieconfig.json` exists in same dir with zombienet then the config applied in it will override the default configuration of zombienet.  E.G if user wants to have as default `native` instead of `k8s` he can add  to 
+- Create "default configuration" - (if `zombieconfig.json` exists in same dir with zombienet then the config applied in it will override the default configuration of zombienet.  E.G if user wants to have as default `native` instead of `k8s` he can add  to
 
 ## UI
 - Create UI to create `.zndls` and `network` files.
